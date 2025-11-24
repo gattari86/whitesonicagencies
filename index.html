@@ -29,37 +29,47 @@
     </header>
 
     <!-- SECTION 1: HERO -->
-    <section class="py-16 sm:py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
-        <div class="max-w-4xl mx-auto">
-            <div class="text-center mb-8 md:mb-12">
-                <div class="inline-flex items-center gap-2 px-3 md:px-4 py-1.5 rounded-full bg-blue-900/20 border border-blue-500/30 text-blue-300 text-xs font-semibold mb-6">
-                    <i data-lucide="alert-circle" class="w-3.5 h-3.5"></i>
-                    The GEO Shift is Here
-                </div>
-                <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 md:mb-8 tracking-tight">
-                    Your Clients Are Ranking on Google,<br class="hidden sm:block">
-                    <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">But They're Invisible on ChatGPT</span>
-                </h1>
-                <p class="text-lg sm:text-xl md:text-2xl text-slate-300 mb-8 md:mb-12 leading-relaxed max-w-2xl mx-auto">
-                    The era of "SEO" is shifting to <span class="font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text">GEO</span> (Generative Engine Optimization). Don't let your clients get left behind.
-                </p>
-            </div>
+    <section class="py-16 sm:py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-slate-950">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 md:px-4 py-1.5 rounded-full bg-blue-900/20 border border-blue-500/30 text-blue-300 text-xs font-semibold mb-6">
+                        <i data-lucide="alert-circle" class="w-3.5 h-3.5"></i>
+                        The GEO Shift is Here
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-5xl font-bold leading-tight mb-6 md:mb-8 tracking-tight">
+                        Your Clients Are Ranking on Google,<br class="hidden sm:block">
+                        <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">But They're Invisible on ChatGPT</span>
+                    </h1>
+                    <p class="text-lg sm:text-xl md:text-2xl text-slate-300 mb-8 md:mb-12 leading-relaxed">
+                        The era of "SEO" is shifting to <span class="font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text">GEO</span> (Generative Engine Optimization). Don't let your clients get left behind.
+                    </p>
 
-            <div class="space-y-4 sm:space-y-5 mb-8">
-                <a href="YOUR_AFFILIATE_LINK_HERE"
-                   class="block w-full sm:w-auto px-8 md:px-10 py-4 md:py-5 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 rounded-lg text-base md:text-lg font-bold shadow-lg shadow-blue-900/30 transition-all duration-200 hover:scale-105 mx-auto sm:mx-0 inline-flex items-center justify-center gap-3">
-                    Start Your Agency Transformation <i data-lucide="arrow-right" class="w-5 md:w-6 h-5 md:h-6"></i>
-                </a>
-                <p class="text-sm md:text-base text-slate-400">
-                    <span class="text-green-400 font-semibold">✅ Save 20% on Annual Plans</span> (Q4 Tax Special) | <span class="text-purple-400 font-semibold">🛡️ Risk-Free Trial</span>
-                </p>
+                    <div class="space-y-4 sm:space-y-5 mb-8 flex flex-col lg:flex-row items-center lg:items-start gap-4">
+                        <a href="YOUR_AFFILIATE_LINK_HERE"
+                           class="w-full lg:w-auto px-8 md:px-10 py-4 md:py-5 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 rounded-lg text-base md:text-lg font-bold shadow-lg shadow-blue-900/30 transition-all duration-200 hover:scale-105 inline-flex items-center justify-center gap-3 whitespace-nowrap">
+                            Start Your Agency Transformation <i data-lucide="arrow-right" class="w-5 md:w-6 h-5 md:h-6"></i>
+                        </a>
+                    </div>
+                    <p class="text-sm md:text-base text-slate-400">
+                        <span class="text-green-400 font-semibold">✅ Save 20% on Annual Plans</span> (Q4 Tax Special) | <span class="text-purple-400 font-semibold">🛡️ Risk-Free Trial</span>
+                    </p>
+                </div>
+
+                <div class="hidden lg:flex items-center justify-center">
+                    <img src="./public/images/hero-ai-visibility.png" alt="AI Visibility Eclipsing Traditional SEO" class="w-full h-auto object-cover rounded-xl shadow-2xl shadow-blue-900/30">
+                </div>
             </div>
         </div>
     </section>
 
     <!-- SECTION 2: TRUST BAR -->
-    <section class="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-slate-900/50 border-y border-slate-800">
-        <div class="max-w-7xl mx-auto">
+    <section class="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 border-y border-slate-800 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="./public/images/trust-bar-background.png" alt="Trust Bar Background" class="w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-950"></div>
+        </div>
+        <div class="max-w-7xl mx-auto relative z-10">
             <p class="text-center text-slate-400 text-xs sm:text-sm font-semibold mb-8 uppercase tracking-wider">
                 Trusted by 10,000+ Growth Teams Including:
             </p>
@@ -96,26 +106,33 @@
 
     <!-- SECTION 3: THE WAKE-UP CALL -->
     <section class="py-16 sm:py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-slate-950">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12 text-center">
-                The "Silent Churn" Crisis of 2025
-            </h2>
-            <div class="space-y-6 md:space-y-8 text-base sm:text-lg md:text-xl text-slate-300 leading-relaxed">
-                <p>
-                    It's Q4. Your team is burnt out churning out blog posts. Meanwhile, 100 million users are skipping Google and asking ChatGPT:
-                    <span class="font-bold text-white italic">"Who is the best marketing agency in [City]?"</span> or
-                    <span class="font-bold text-white italic">"Best CRM for startups."</span>
-                </p>
-                <p class="text-lg sm:text-xl md:text-2xl">
-                    <span class="text-red-400 font-bold">If your client isn't the answer, you are losing them money.</span>
-                </p>
-                <div class="p-6 md:p-8 bg-red-900/20 border border-red-500/30 rounded-xl">
-                    <p class="text-base sm:text-lg md:text-lg">
-                        Traditional SEO tools (Ahrefs, Semrush) cannot track this. They only see Google.
-                    </p>
-                    <p class="mt-3 font-bold text-red-300">
-                        You need a tool that sees what the AI sees.
-                    </p>
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">
+                        The "Silent Churn" Crisis of 2025
+                    </h2>
+                    <div class="space-y-6 md:space-y-8 text-base sm:text-lg md:text-xl text-slate-300 leading-relaxed">
+                        <p>
+                            It's Q4. Your team is burnt out churning out blog posts. Meanwhile, 100 million users are skipping Google and asking ChatGPT:
+                            <span class="font-bold text-white italic">"Who is the best marketing agency in [City]?"</span> or
+                            <span class="font-bold text-white italic">"Best CRM for startups."</span>
+                        </p>
+                        <p class="text-lg sm:text-xl md:text-2xl">
+                            <span class="text-red-400 font-bold">If your client isn't the answer, you are losing them money.</span>
+                        </p>
+                        <div class="p-6 md:p-8 bg-red-900/20 border border-red-500/30 rounded-xl">
+                            <p class="text-base sm:text-lg md:text-lg">
+                                Traditional SEO tools (Ahrefs, Semrush) cannot track this. They only see Google.
+                            </p>
+                            <p class="mt-3 font-bold text-red-300">
+                                You need a tool that sees what the AI sees.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:flex items-center justify-center">
+                    <img src="./public/images/problem-agency-burnout.png" alt="Agency Burnout vs. AI Opportunity" class="w-full h-auto object-cover rounded-xl shadow-2xl shadow-red-900/20">
                 </div>
             </div>
         </div>
@@ -176,16 +193,8 @@
                     </div>
                 </div>
 
-                <div class="flex items-center justify-center">
-                    <div class="w-full aspect-video bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl border border-slate-700 flex items-center justify-center">
-                        <div class="text-center">
-                            <i data-lucide="image" class="w-16 h-16 text-slate-600 mx-auto mb-4"></i>
-                            <p class="text-slate-400 text-sm sm:text-base">
-                                Dashboard Screenshot<br>
-                                <span class="text-xs">(Replace with actual Writesonic dashboard image)</span>
-                            </p>
-                        </div>
-                    </div>
+                <div class="hidden lg:flex items-center justify-center">
+                    <img src="./public/images/solution-dashboard.png" alt="Share of Voice Dashboard - Solution" class="w-full h-auto object-cover rounded-xl shadow-2xl shadow-green-900/20">
                 </div>
             </div>
         </div>
@@ -316,8 +325,12 @@
     </section>
 
     <!-- SECTION 7: THE FISCAL CLOSER -->
-    <section class="py-16 sm:py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 to-slate-900">
-        <div class="max-w-4xl mx-auto text-center">
+    <section class="py-16 sm:py-20 md:py-28 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="./public/images/fiscal-closer-tax-asset.png" alt="Tax Liability to Tech Asset" class="w-full h-full object-cover opacity-30">
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/85 to-slate-900"></div>
+        </div>
+        <div class="max-w-4xl mx-auto text-center relative z-10">
             <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 md:mb-8">
                 Turn Your 2025 Tax Bill<br class="hidden sm:block">
                 <span class="bg-gradient-to-r from-amber-400 to-green-400 bg-clip-text text-transparent">Into 2026 Power</span>
